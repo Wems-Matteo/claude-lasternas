@@ -1,7 +1,7 @@
 'use strict';
 
 import { useRouter } from 'next/router';
-import { Fragment, useCallback, useState } from 'react';
+import { Fragment, useCallback, useEffect, useState } from 'react';
 import Heading from '../../components/Heading';
 import Grid from '../../components/Grid';
 
